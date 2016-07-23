@@ -67,6 +67,6 @@ def static(filename="home.html"):
 #def do_r_number():
 #    return str(Cmn.received_pkts)
 
-run(host='192.168.1.8', port=8000, debug=True, reloader=True, server='paste')
+run(host="192.168.1.17", port=8000, debug=True, reloader=True)
 
 

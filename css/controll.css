@@ -5,13 +5,18 @@
     box-sizing: border-box;
 }*/
 body {
-    background-color: grey;
+    background-color: transparent;
 }
 
-.row{
-    max-width: 1140px;
-    margin: 0 auto;
-}
+.voffset  { margin-top: 4px; }
+
+
+/*.row{*/
+    /*border: 1px solid;*/
+/*}*/
+/*.col-xs-4{*/
+    /*border: 1px solid;*/
+/*}*/
 
 h1{
     color:orange;
@@ -22,15 +27,70 @@ h1{
 .panel-heading{
     text-align: center;
     font-weight: bold;
+    background-color: darkgray;
 }
 
 .dropdown{
     padding-top: 10px;
 }
+.btn-on{
+    background-color:lightgreen;
+    color: white;
+}
+.btn-off{
+    background-color:lightsalmon;
+    color: white;
+}
 
+.first-room {
+    padding-top: 5px;
+    font-family: sans-serif ;
+}
+.first-one{
+    background-color:lightcyan;
+    color: green;
+    border-radius:60%;
+    border: 1px solid grey;
+    float: right;
 
+}
+.btn-default{
+    border-radius: 50%;
+    color: red;
+    background-color:lightcyan;
+}
 
+.btn-md{
+    background-color:#84ad47;
+    border:1px solid black;
+}
+.four-one{
+    margin-right: 6px;
 
+}
+.vol-at{
+    padding-top: 6px;
+}
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    color: white;
+    /*text-align: center;*/
+    /*padding: 6px 0;*/
+    /*font-size: 12px;*/
+    /*line-height: 1.42;*/
+}
+.sec-bt{
+    margin-top: 5px;
+}
+.third-bt {
+    padding-left: 20px;
+}
 
-
+/*}*/
+.btn-sm{
+  background-color:#E3cacf;
+}
 
